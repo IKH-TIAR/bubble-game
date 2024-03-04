@@ -19,7 +19,7 @@ function newHit() {
 
 
 function timer() {
-    let timevalue = 3;
+    let timevalue = 60;
     let timerfunc = setInterval(function () { 
         if (timevalue >= 0) {
             document.querySelector("#timevalue").textContent = timevalue;
